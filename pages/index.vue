@@ -4,11 +4,13 @@
       <div class="container mx-auto flex flex-wrap p-3 flex-col md:flex-row items-center">
         <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0 " href="./">
           <svg id="logo" xmlns="http://www.w3.org/2000/svg" fill="none" stroke-linecap="round" stroke-linejoin="round" 
-          stroke-width="2" class="transition ease-out duration-1000  w-10 h-10 text-white p-2 rounded-full bg-indigo-main stroke-current hover:bg-white 
-          transform hover:rotate-180 md:rotate-0"  viewBox="0 0 24 24">
+          stroke-width="2" 
+          class="transition ease-out duration-1000  w-10 h-10 text-white p-2 rounded-full bg-indigo-main stroke-current hover:bg-white transform hover:rotate-180 md:rotate-0"  
+          viewBox="0 0 24 24">
             <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
           </svg>
-          <span class="ml-5 pb-0.5 pr-1 mt-1 text-xl transition ease-out duration-500 transform hover:scale-110" style="font-family: Montserrat-Bold">Polystacker</span> </a>
+
+          <span class="ml-5 pb-0.5 pr-1 mt-1 text-xl transition ease-out duration-500 transform hover:scale-110" style="font-family: Montserrat-SemiBold">Polystacker</span> </a>
 
         <nav class="md:mr-auto md:ml-6 md:py-1 md:pl-6 md:border-l md:border-gray-second flex flex-wrap items-center text-base justify-center">
           <a class="mr-7 transition ease-out duration-500 transform hover:scale-110 hover:text-white" href="./register" style="font-family: Montserrat-Medium">Our Cources</a>
@@ -105,7 +107,7 @@ stroke-width="2"  class="ml-48 transition ease-out duration-1000 transform hover
     
     <div class="bg-gray-content py-12">
 <div id="contain-main">
-  <section class="mb-12 ml-48 mr-48" style="height: 32rem; background-color: #000000">
+  <section class="mb-12 ml-48 mr-48" style="height: 32rem">
     <div  class=" float-right w-2/5 h-full py-28 flex  flex-col justify-center"><!--  -->
         <h1 class=" text-4xl font-extrabold mx-12 text-white " style="font-family: Montserrat-Bold"> Zbrush & Anatomy</h1>
         <p class="ml-12 mt-4 text-white text-justify" style="font-family: Montserrat-Light;">
@@ -113,7 +115,7 @@ stroke-width="2"  class="ml-48 transition ease-out duration-1000 transform hover
 
           The course is complemented by lectures on Substance Painter, where students will look at the basic tools for creating high-quality textures. The fabric elements will be created using the Marvelous Designer toolbox. The final render is done in the Marmoset Toolbag.</p>
          <button onclick="window.location.href='/register'" 
-        class=
+        class= 
         "transform hover:scale-110 transition ease-out duration-700 font-bold inline-flex items-center border-2 py-1 px-3 focus:outline-none   hover:bg-indigo-main rounded text-base w-64 border-indigo-main text-white text-2xl ml-12 mt-6 py-2 px-6"
         style="letter-spacing: 0.03em">
         View the course
@@ -121,12 +123,12 @@ stroke-width="2"  class="ml-48 transition ease-out duration-1000 transform hover
         </button>
     </div>
 
-    <div class="ml-12 h-full flex items-center justify-center flex-col text-center bg-blue-600" >
+    <div class="ml-12 h-full  flex items-center justify-center flex-col text-center" style="border-radius: 1.5rem;" >
       <a class="button23 transition-3" href="#"></a>
     </div>
   </section>
 
-   <section class="mb-12 ml-48 mr-48 " style="height: 32rem; background-color: #000000 ">
+   <section class="mb-12 ml-48 mr-48 " style="height: 32rem">
     <div class="  float-left w-2/5 h-full py-28 flex  flex-col justify-center"><!--  -->
         <h1 class=" text-4xl font-extrabold mx-12 text-white" style="font-family: Montserrat-Bold;">Hardsurface in Maya</h1>
         <p class="mx-12 mt-4 text-white text-justify" style="font-family: Montserrat-Light;">
@@ -141,7 +143,7 @@ stroke-width="2"  class="ml-48 transition ease-out duration-1000 transform hover
          
         </button>
     </div>
-    <div class="ml-12 h-full flex items-center justify-center flex-col text-center bg-blue-600" >
+    <div class="ml-12 h-full flex items-center justify-center flex-col text-center" style="border-radius: 1.5rem;" >
       <a class="button22 transition-3" href="#"></a>
     </div>
    </section>
@@ -162,7 +164,7 @@ stroke-width="2"  class="ml-48 transition ease-out duration-1000 transform hover
         </button>
     </div>
 
-    <div class="ml-12 h-full flex items-center justify-center flex-col text-center bg-blue-600" >
+    <div class="ml-12 h-full flex items-center justify-center flex-col text-center" style="border-radius: 1.5rem;" >
       <a class="button21 transition-3" href="#"></a>
     </div>
   </section>
@@ -220,8 +222,8 @@ stroke-width="2"  class="ml-48 transition ease-out duration-1000 transform hover
      
 <section class="bg-gray-content " style="height: 44rem">
     <div class=" float-left h-full mr-12 " style="width:48.5%">
-      <div class="ml-12  h-full flex items-center justify-center flex-col bg-blue-600">
-      <a class="button44 transition-3"  href="#">
+      <div class="ml-12  h-full flex items-center justify-center flex-col">
+      <a class="button44 transition-3" style="border-radius: 1rem" href="#">
           <div id="contain" class="ml-12 pr-12 pb-12 pt-10 absolute bg-gray-main rounded-lg mt-96 transform hover:-translate-y-6 transition ease-out duration-700" style="width: 32rem">
             
             <h1 class=" text-4xl font-extrabold mx-12 text-white" style="letter-spacing: 0.02em; font-family: Montserrat-Bold;">CAR PAINTS MATERIAL COLLECTION</h1>
@@ -243,8 +245,8 @@ stroke-width="2"  class="ml-48 transition ease-out duration-1000 transform hover
     </div>
     </div>
 
-    <div class=" mr-12 h-full flex items-center justify-center flex-col bg-blue-600 " >
-      <a class="button43 transition-3" href="#">
+    <div class=" mr-12 h-full flex items-center justify-center flex-col " >
+      <a class="button43 transition-3" style="border-radius: 1rem" href="#">
          <div id="contain" class="ml-12 pr-12 pb-12 pt-10 absolute bg-gray-main rounded-lg mt-96 transform hover:-translate-y-6 transition ease-out duration-700" style="width: 32rem">
             
             <h1 class=" text-4xl font-extrabold mx-12 text-white" style="letter-spacing: 0.02em; font-family: Montserrat-Bold;">TECH PRODUCTS MATERIAL COLLECTION</h1>
@@ -270,8 +272,8 @@ stroke-width="2"  class="ml-48 transition ease-out duration-1000 transform hover
 
 <section class="bg-gray-content " style="height: 44rem">
     <div class=" float-left h-full mr-12 " style="width:48.5%">
-      <div class="ml-12  h-full flex items-center justify-center flex-col bg-blue-600">
-      <a class="button41 transition-3"  href="#">
+      <div class="ml-12  h-full flex items-center justify-center flex-col">
+      <a class="button41 transition-3" style="border-radius: 1rem"  href="#">
           <div id="contain" class="ml-12 pr-12 pb-12 pt-10 absolute bg-gray-main rounded-lg mt-96 transform hover:-translate-y-6 transition ease-out duration-700" style="width: 32rem">
             
             <h1 class=" text-4xl font-extrabold mx-12 text-white" style="letter-spacing: 0.02em; font-family: Montserrat-Bold;">CAR PAINTS MATERIAL COLLECTION</h1>
@@ -293,8 +295,8 @@ stroke-width="2"  class="ml-48 transition ease-out duration-1000 transform hover
     </div>
     </div>
 
-    <div class=" mr-12 h-full flex items-center justify-center flex-col bg-blue-600 " >
-      <a class="button42 transition-3" href="#">
+    <div class=" mr-12 h-full flex items-center justify-center flex-col" >
+      <a class="button42 transition-3" style="border-radius: 1rem" href="#">
          <div id="contain" class="ml-12 pr-12 pb-12 pt-10 absolute bg-gray-main rounded-lg mt-96 transform hover:-translate-y-6 transition ease-out duration-700" style="width: 32rem">
             
             <h1 class=" text-4xl font-extrabold mx-12 text-white" style="letter-spacing: 0.02em; font-family: Montserrat-Bold;">TECH PRODUCTS MATERIAL COLLECTION</h1>
@@ -456,14 +458,14 @@ stroke-width="2"  class="ml-48 transition ease-out duration-1000 transform hover
    width: 100%;
    z-index: 99;
    background-image: url(assets/img/1122.png);
-  background-size: 120%;
+  background-size: 90%;
  }
 #contain-main {
-  background-image: url(assets/img/112233.png);
+  /* background-image: url(assets/img/112233.png); */
   background-size: 100%;
 }
 #contain {
-  background-image: url(assets/img/1122.png);
+  /* background-image: url(assets/img/1122.png); */
   background-size: 300%;
 }
 #footer {
@@ -497,6 +499,7 @@ stroke-width="2"  class="ml-48 transition ease-out duration-1000 transform hover
             width: 100%;
             background: url(assets/img/surfer0.jpg) 50% 50% ;
             background-size: 100% 100%;	
+            border-radius: 1.5rem;
 
         }
         .button22 {
@@ -504,6 +507,7 @@ stroke-width="2"  class="ml-48 transition ease-out duration-1000 transform hover
             width: 100%;
             background: url(assets/img/weapon.jpg) 50% 50% ;
             background-size: 100% 100%;	
+            border-radius: 1.5rem;
 
         }
         .button21 {
@@ -511,6 +515,7 @@ stroke-width="2"  class="ml-48 transition ease-out duration-1000 transform hover
             width: 100%;
             background: url(assets/img/text.jpg) 50% 50% ;
             background-size: 100% 100%;	
+            border-radius: 1.5rem;
         }
         .button11 {
             height: 100%;
@@ -553,6 +558,7 @@ stroke-width="2"  class="ml-48 transition ease-out duration-1000 transform hover
             width: 100%;
             background: url(assets/img/abstract.jpg) 50% 50% ;
             background-size: 100% 100%;
+       
         }	
         .transition-3 {
             transition: background-size 0.5s;
